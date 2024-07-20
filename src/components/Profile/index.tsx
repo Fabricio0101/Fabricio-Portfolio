@@ -75,7 +75,7 @@ export default function Profile() {
     ]
 
     return (
-        <div className="flex flex-col w-3/12">
+        <div className="flex flex-col w-3/12 fixed left-10">
             <div className="flex flex-col w-full h-5 justify-start items-start -mb-2 trapezium">
                 <img src={Logo} width="18%" alt="Logo" className='mt-2 pl-2' />
             </div>

@@ -13,16 +13,31 @@ module.exports = {
       center: true,
       padding: '2rem',
       screens: {
-        '2xl': '1400px',
+        sm: '640px',
+        md: '768px',
+        lg: '1024px',
+        xl: '1280px',
+        '2xl': '1600px',
       },
     },
+    screens: {
+      sm: '640px',
+      md: '768px',
+      lg: '1024px',
+      xl: '1280px',
+      '2xl': '1600px',
+    },
     extend: {
+      fontSize: {
+        'title': '4.5rem',
+        'subtitle': '2.5rem',
+        'description': '1.5rem',
+        'min': '1.3rem',
+        'light': '1rem',
+        'minlight': '0.8rem',
+      },
       fontFamily: {
         custom: ['sohne', 'serif-sans'],
-      },
-      fontSize: {
-        h1: '2.25rem',
-        h2: '1.875rem',
       },
       colors: {
         border: 'hsl(var(--border))',

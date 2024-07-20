@@ -92,6 +92,16 @@ body {
   border-bottom: 50px solid #10152A;
 }
 
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+
 @keyframes spacetravel {
   from {
     background-position: 0 0;
